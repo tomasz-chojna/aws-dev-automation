@@ -1,4 +1,4 @@
-#AWS Dev CLI
+# AWS Dev CLI
 
 The tool assumes that is being used on EC2 instance with a role that has a full access to EC2 and Route53, otherwise `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY`env variables need to be configured.
 
@@ -31,7 +31,7 @@ StrictHostKeyChecking no
 
 ## Usage
 
-###Show available servers
+### Show available servers
 
 ```bash
 $ fab dev.list
